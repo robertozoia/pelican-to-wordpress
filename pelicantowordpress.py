@@ -22,7 +22,7 @@
 WP_SITE_URL = r'http://example.com'
 WP_USERNAME = 'wordpress_username'
 WP_PASSWORD = r'wordpress_password'
-
+FILE_PATH = r"/path/to/your/posts"
 
 #
 
@@ -43,7 +43,7 @@ from wordpress_xmlrpc.methods.users import GetUserInfo
 ## PELICAN side of things
 ##
 
-FILE_PATH = r"""/Users/robertoz/Desktop/tmp/remains"""
+
 VALID_YAML_TAGS = [
     'TITLE',
     'TITLE_LINK',
