@@ -19,9 +19,9 @@
 
 # Configuration parameters
 
-WP_SITE_URL = r'http://zoia.org'
-WP_USERNAME = 'robertozoia'
-WP_PASSWORD = r'VYmm6cs[U89]f2F9F#4NYxf$'
+WP_SITE_URL = r'http://example.com'
+WP_USERNAME = 'wordpress_username'
+WP_PASSWORD = r'wordpress_password'
 
 
 #
@@ -29,7 +29,6 @@ WP_PASSWORD = r'VYmm6cs[U89]f2F9F#4NYxf$'
 import os
 import os.path
 import re
-import yaml
 from datetime import datetime
 
 from wordpress_xmlrpc import Client, WordPressPost
