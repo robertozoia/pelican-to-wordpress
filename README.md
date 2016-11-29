@@ -19,7 +19,7 @@ $ pip install python-wordpress-xmlrpc
 Open the script in your favorite editor and fill in the following variables:
 
 ~~~
-P_SITE_URL = r'http://example.com'
+WP_SITE_URL = r'http://example.com'
 WP_USERNAME = 'wordpress_username'
 WP_PASSWORD = r'wordpress_password'
 FILE_PATH = r"/path/to/your/posts"
